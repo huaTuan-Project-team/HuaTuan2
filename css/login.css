@@ -1,0 +1,110 @@
+.header-img{
+    margin-top: 30px;
+}
+.header-img img{
+    width: 150px;
+    height: 50px;
+    padding-left: 300px;
+}
+.box{
+    width: 950px;
+    margin: auto;
+    margin-top: 30px;
+}
+.box div{
+    float: left;
+}
+/* 表单样式 */
+table{
+    margin-left: 100px;
+}
+table tr{
+    width: 250px;
+    height: 50px;
+}
+/* 文字行的样式 */
+.table-tr{
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+}
+.table-tr-text{
+    text-align: center;
+    color: #8f8f8f;
+}
+#table-a-phone{
+    float: right;
+    font-size: 13px;
+    color: #8f8f8f;
+}
+#table-a-pwd{
+    float: right;
+    color: orange;
+    font-size: 13px;
+}
+#table-a-register{
+    color: orange;
+}
+input[type='text'],input[type='password']{
+    width: 250px;
+    height: 35px;
+    font-size: 14px;
+    border: 1px solid #8f8f8f;
+    outline: none;
+}
+input[type='button']{
+    width: 250px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #ffc300;
+    border: 0px;
+    outline: none;
+    cursor: pointer;
+}
+
+/* icon图标样式 */
+.table-tr_td{
+    text-align: center;
+}
+.table-tr_td span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.table-tr_td span:hover{
+    opacity: 1;
+}
+/* 设置图标背景颜色 */
+.table-tr-icon1{
+    background-color: #2483f0;
+    opacity: 0.8;
+}
+/* 设置图标大小 用font-size控制、设置图标颜色 用color控制 */
+.fa-qq{
+    font-size: 18px;
+    color: white;
+    position: relative;
+}
+.table-tr-icon2{
+    background-color: #fa5260;
+    opacity: 0.8;
+}
+.fa-weibo{
+    font-size: 18px;
+    color: white;
+    position: relative;
+}
+.table-tr-icon3{
+    background-color: #16af16;
+    opacity: 0.8;
+}
+.fa-weixin{
+    font-size: 18px;
+    color: white;
+    position: relative;
+}

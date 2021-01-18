@@ -1,0 +1,331 @@
+header{
+    box-shadow: 0px 0px 20px #ccc;
+    padding-bottom: 10px;
+}
+.header-top{
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    height: 35px;
+    line-height: 35px;
+}
+/* 将 li 标签变成行快标签 */
+.nav ul li{
+    padding: 0px 10px;
+    text-align: center;
+}
+.nav a{
+    font-size: 13px;
+    color: #999999;
+}
+.nav-left li{
+    float: left;
+}
+/* 让装li标签的ul向右浮动 */
+.nav-ulbox{
+    float: right;
+}
+.nav-right ul li{
+    float: left;
+    width: 60px;
+}
+.nav-right ul li ul{
+    display: none;
+}
+/* 给二级菜单栏设置长度 */
+#submenu ul{
+    
+}
+#submenu li{
+    width: 110px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 3px #ccc;
+    position: relative;
+    z-index: 100;
+}
+
+/* 搜索栏部分 */
+.header-search{
+    height: 100px;
+    width: 80%;
+    margin: auto;
+    /* background-color: #999999; */
+}
+.header-search div{
+    float: left;
+}
+.header-logo{
+    margin-top: 35px;
+    width: 15%;
+    height: 50px;
+}
+.header-logo img{
+    width: 100%;
+    height: 100%;
+}
+.search-btn{
+    width: 85%;
+    margin: auto;
+    margin-top: 35px;
+}
+#search-text{
+    width: 40%;
+    height: 36px;
+    line-height: 36px;
+    outline: none;
+    padding-left: 15px;
+    margin-left: 18%;
+    border: 1px solid #ccc;
+}
+#btn{
+    height: 40px;
+    line-height: 40px;
+    width: 8%;
+    background-color: #ffc300;
+    color: white;
+    font-size: 13px;
+    position: relative;
+    left: -6px;
+    cursor: pointer;
+    border: 0px;
+    outline: none;
+}
+#btn:hover{
+    opacity: 0.9;
+}
+/* 头部下面的导航栏 */
+.header-menu{
+    margin-top: 30px;
+}
+.header-menu ul{
+    /* width: 50%; */
+    width: 600px;
+    margin: auto;
+}
+.header-menu ul li{
+    float: left;
+    padding: 0px 15px;
+}
+.header-menu a{
+    font-size: 17px;
+    color: black;
+    font-weight: 600;
+}
+/* 广告栏区域 */
+.banner{
+    /* background-color: #ccc; */
+}
+/* 猫眼电影样式 */
+.catMovie{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.catMovie-nav{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background-color: red;
+    border: 0px;
+    border-radius: 5px 5px 0px 0px;
+}
+.catMovie-nav .title1{
+    color: white;
+    font-size: 18px;
+    float: left;
+    margin:0px 15px;
+}
+.catMovie-nav ul li{
+    float: left;
+    padding: 0px 5px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* 猫眼左右按钮 */
+#catMovie-btn{
+    width: 100%;
+    height: 35px;
+    position: relative;
+    top: 150px;
+    z-index: 100;
+}
+#btn-img1,#btn-img2{
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+}
+.btn-left{
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: #999999;
+    opacity: 0.8;
+    float: left;
+    outline: none;
+    cursor: pointer;
+}
+.btn-right{
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 50%;
+    background-color: #999999;
+    opacity: 0.8;
+    float: right;
+    outline: none;
+    cursor: pointer;
+}
+.btn-left:hover,.btn-right:hover{
+    opacity: 0.95;
+}
+.catMovie-content{
+    width: 2200px;
+    height: 300px;
+    position: relative;
+    top: -30px;
+}
+.catMovie-content div{
+    display: none;
+}
+.catMovie-content div:nth-child(1){
+    display: block;
+}
+.catMovie-content dl{
+    float: left;
+    width: 210px;
+    height: 300px;
+    margin: 0px 5px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.catMovie-content dl dd{
+    height: 100px;
+    /* 这个很重要 :rgba(255,255,255,0.1)  rgb：代表颜色值  a：代表 颜色背景透明度【设置后背景透明，字体不会透明】 */
+    background-color:rgba(100,100,100,0.15);
+    position: relative;
+    top: -100px;
+}
+.catMovie-content--span1{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    font-size: 13px;
+    color: white;
+    padding: 0px 5px;
+    position: relative;
+    top: 30px;
+}
+.catMovie-content--span1 span{
+    font-size: 17px;
+    color: #ff6600;
+    padding: 0px 5px;
+}
+.catMovie-content--span2{
+    color: white;
+    font-size: 15px;
+    padding: 0px 5px;
+    position: relative;
+    top: 40px;
+}
+.catMovie-content--span3{
+    display: block;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 12px;
+    background-color: #ff6600;
+    float: right;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.catMovie-content img{
+    width: 210px;
+    height: 300px;
+}
+/* 全部按钮 */
+.allbtn a{
+    float: right;
+    margin-right: 14px;
+    font-size: 15px;
+    color: white;
+}
+/* 民宿公寓 */
+.apartment{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+.apartment-nav{
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    color: white;
+    background-color: #f3be48;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.apartment-nav .title2{
+    color: white;
+    font-size: 18px;
+    float: left;
+    margin:0px 15px;
+}
+.apartment-nav ul li{
+    float: left;
+    padding: 0px 5px;
+    cursor: pointer;
+}
+.apartment-address div{
+    /* visibility: hidden; */
+
+    display: none;
+}
+.apartment-address div:nth-child(1){
+    /* visibility: visible; */
+
+    display: block;
+    display: flex;
+}
+
+/* 各个住宿地点图片的样式 */
+.apartment-tianjin,.apartment-jinan,
+.apartment-dalian,.apartment-address div{
+    /* 自动换行 */
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.apartment dl{
+    width: 30%;
+    padding: 10px;
+}
+.apartment dl img{
+    width: 100%;
+    height: 235px;
+}
+.apartment__dd-acctive1{
+    font-size: 17px;
+    color: black;
+    padding: 5px 0px;
+}
+.apartment__dd-acctive2{
+    font-size: 13px;
+    color:#999999;
+}
+.apartment__dd-acctive3{
+    font-size: 18px;
+    color:#ff6600;
+    font-weight: 600;
+    padding: 5px 0px;
+}
